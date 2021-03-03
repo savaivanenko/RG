@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/RG/static/css/main.3a24a7fd.chunk.css",
+    "main.js": "/RG/static/js/main.57ef05f0.chunk.js",
+    "main.js.map": "/RG/static/js/main.57ef05f0.chunk.js.map",
+    "runtime-main.js": "/RG/static/js/runtime-main.ba9cdc71.js",
+    "runtime-main.js.map": "/RG/static/js/runtime-main.ba9cdc71.js.map",
+    "static/js/2.fe9404de.chunk.js": "/RG/static/js/2.fe9404de.chunk.js",
+    "static/js/2.fe9404de.chunk.js.map": "/RG/static/js/2.fe9404de.chunk.js.map",
+    "index.html": "/RG/index.html",
+    "static/css/main.3a24a7fd.chunk.css.map": "/RG/static/css/main.3a24a7fd.chunk.css.map",
+    "static/js/2.fe9404de.chunk.js.LICENSE.txt": "/RG/static/js/2.fe9404de.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/RG/static/media/гималаи_1.fa83ba26.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba9cdc71.js",
+    "static/js/2.fe9404de.chunk.js",
+    "static/css/main.3a24a7fd.chunk.css",
+    "static/js/main.57ef05f0.chunk.js"
+  ]
+}
