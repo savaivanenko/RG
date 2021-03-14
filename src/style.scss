@@ -56,6 +56,9 @@ ol[class] {
 a{
   display: block;
 }
+body{
+  background-color: lightyellow;
+}
 .header{
   background-size: cover;
   // background-color: #95e1d3;
@@ -74,20 +77,22 @@ a{
 .nav{
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   padding-top: 22px;
   position: relative;
   margin-bottom: 80px;
+  
   a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: $font-base; 
+    font-size: 15px;
     padding-bottom: 12px;
   }
 }
 .logo{
-  font-weight: 700;
-  font-size: 30px;  
+  cursor: pointer; 
+  width: 200px;
 }
 .menu{
   display: flex;
@@ -120,26 +125,41 @@ a{
   opacity:1;
   transition: 0.2s linear;
 }  
-.menu-btn{
-  display: flex;
-  padding-left: 0;
+// .menu-btn{
+//   display: flex;
+//   padding-left: 0;
+// }
+// .menu-btn__list:not(:last-child){
+//   padding-right: 30px;
+// }
+// .menu-btn__button{
+//   background: rgba(255, 255, 255, 0);
+//   border: none;
+//   outline: none;
+//   cursor: pointer;
+// }
+// .menu-btn__svg{
+//     width: 20px;
+//     height: 20px;
+//     fill: rgb(255, 255, 255);
+// }
+// .menu-btn__svg:hover{
+//    fill: #fce38a;
+// }
+.RGabout{
+  max-width: 1200px;
+  // display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 2;
 }
-.menu-btn__list:not(:last-child){
-  padding-right: 30px;
-}
-.menu-btn__button{
-  background: rgba(255, 255, 255, 0);
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-.menu-btn__svg{
-    width: 20px;
-    height: 20px;
-    fill: rgb(255, 255, 255);
-}
-.menu-btn__svg:hover{
-   fill: #fce38a;
+.foto{
+  width: 400px;
+  float: left;
+  padding: 10px;
 }
 .header__head{
   font-family: $font-base;
